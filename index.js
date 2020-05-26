@@ -59,7 +59,7 @@ function initMap() {
     map: map,
   });
 
-  var radius = 1000;
+  var radius = 5000;
       var position = marker.getPosition();
 
       var circle = new google.maps.Circle({
@@ -106,7 +106,7 @@ window.onload = () => {
         "key": key,
         "lng": lng,
         "lat": lat,
-        "radius": 1000
+        "radius": 5000
       }),
       headers: {
         'Content-Type': 'application/json'
